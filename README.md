@@ -23,6 +23,8 @@ This is a frontend-only React app built with Vite. It does not require a backend
 - Output directory: `dist`
 - Install command: `npm install`
 
+For automatic deployments from GitHub, open the Vercel dashboard, choose **Add New → Project**, import this repository, and keep the detected Vite settings above. Each push to the connected production branch will trigger a new deployment.
+
 To deploy directly from this folder, install Node.js, open a terminal in the project directory, then run:
 
 ```sh
