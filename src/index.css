@@ -1,0 +1,59 @@
+:root {
+  --blush-pink: #ffd6e7;
+  --soft-lavender: #dccbff;
+  --deep-plum: #563568;
+  --cream: #fff8ef;
+  --rose-pink: #ff78ab;
+  --champagne: #e8c98a;
+  --shadow-soft: 0 22px 40px rgba(86, 53, 104, 0.08);
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--deep-plum);
+  background: var(--cream);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: linear-gradient(180deg, #fff8ef 0%, #fce4f1 40%, #f8f1ff 100%);
+}
+
+img {
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+button {
+  border: 0;
+}
